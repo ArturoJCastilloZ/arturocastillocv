@@ -20,20 +20,18 @@ class Experience extends Component {
                                 <CardText className='font-semibold'><EventIcon/> Inicio: Agosto del 2021</CardText>
                                 <CardText className='font-semibold'><EventIcon/> Fin: Diciembre del 2021</CardText><br/>
                                 <CardTitle className='text-uppercase font-bold fs-4 text-center'>Actividades</CardTitle><br/>
-                                    <CardText>
-                                        <p className='text-left md:text-center font-semibold'>
+                                    <CardText className='text-left md:text-center font-semibold'>
                                             La empresa tiene en a la venta una aplicación web llamada Fluxy, la cual sirve para administrar los proyectos o tareas.
                                             La función principal es el mantenimiento a esta aplicación web; dicho mantenimiento se refiere a actualizaciones a la plataforma en base
                                             a los requerimientos de los clientes que ya contaban con el servicio de Fluxy.
-                                        </p>
+                                    </CardText>
                                         <ul className='font-semibold'><br/>
                                             <li><ArrowRightAltIcon />Frontend: Angular</li>
                                             <li><ArrowRightAltIcon />Documentación técnica</li>
                                             <li><ArrowRightAltIcon />Pruebas unitarias con Karma&Jasmine</li>
-                                            <li><ArrowRightAltIcon />Control de versiones a través de GitLab y sus comandos</li>
+                                            <li><ArrowRightAltIcon />Control de versiones con GitLab</li>
                                             <li><ArrowRightAltIcon />Actividades asignadas mediante la metología Scrum</li>
                                         </ul>
-                                    </CardText>
                             </CardBody>
                         </Card>
                     </div>
