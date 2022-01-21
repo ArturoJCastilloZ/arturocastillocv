@@ -17,7 +17,7 @@ class About extends Component {
                             al framework Angular, el cual se me hizo algo complicado pero, al final, logré entenderlo.</p>
                             <p className='text-xl'>El gusto por Reactjs fue gracias al úncio maestro que se salió de la clase básica enfocada a crear un login con HTML, PHP y CSS. Después, tuve la oportunidad de volver a utilizarlo
                             durante mi estadía en <strong className='italic'>Triple i Soluciones</strong>, incluso también utlicé un framework CSS llamado <strong className='font-bold italic'>Tailwindcss</strong>.
-                            El gusto por la combinación entre Reactjs y Tailwindcss fue tanta, que este sitio web esta creado con estos dos frameworks</p>
+                            El gusto por la combinación entre Reactjs y Tailwindcss fue tanta, que este sitio web esta creado con estos dos frameworks.</p>
                             <p className='text-xl'>En fin, esto es solo una pequeña descripción sobre mi persona.</p>
                         </Col>
                     </Row>
