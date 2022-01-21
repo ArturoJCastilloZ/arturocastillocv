@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './Header';
+import About from './About';
+import Training from './Training';
+import Experience from './Experience';
+import Footer from './Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <About />
+    <Training />
+    <Experience />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
