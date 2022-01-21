@@ -24,8 +24,8 @@ class Training extends Component {
                                 </CardBody>
                             </Card>
                         </div>
-                        <div>                            
-                            <Card className='bg-gradient-to-r from-lime-500 to-emerald-500 pt-10 md:pt-0'>
+                        <div className='pt-10 md:pt-0'>                            
+                            <Card className='bg-gradient-to-r from-lime-500 to-emerald-500'>
                                 <CardHeader className='text-uppercase font-bold fs-4 text-center'><SchoolIcon/> Ingeniería</CardHeader>
                                 <CardBody className=''>
                                     <CardSubtitle className='font-semibold'><ArrowForwardIosIcon /> Desarrollo y gestión de software</CardSubtitle><br/>
