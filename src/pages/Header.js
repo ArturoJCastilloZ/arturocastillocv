@@ -9,6 +9,8 @@ import {
   NavLink
 } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -27,7 +29,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className='bg-transparent' light expand="md">
+        <Navbar className='bg-cyan-600' light expand="md">
           <NavbarBrand href="/">
             Portfolio of Arturo Castillo
           </NavbarBrand>
@@ -35,10 +37,10 @@ export default class Header extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="https://github.com/ArturoJCastilloZ">GitHub</NavLink>
+                <NavLink href="https://github.com/ArturoJCastilloZ">GitHub <GitHubIcon /></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.linkedin.com/in/castillo93/">LinkedIn</NavLink>
+                <NavLink href="https://www.linkedin.com/in/castillo93/">LinkedIn <LinkedInIcon /></NavLink>
               </NavItem>
             </Nav>
           </Collapse>

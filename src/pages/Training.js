@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './index.css';
 import { Card, CardBody, CardHeader, CardSubtitle, CardText, Container } from 'reactstrap';
 import SchoolIcon from '@mui/icons-material/School';
 import EventIcon from '@mui/icons-material/Event';
