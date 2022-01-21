@@ -21,7 +21,7 @@ class Footer extends Component {
                         <p><MapIcon /> Santa Catarina, Nuevo León</p>
                     </div>
                 </Container>                
-                <p className='text-white text-center'>Copyrigth &copy; 2022 Arturo de Jesús Castillo Zapata</p><br/>
+                <p className='text-white text-center'>Copyright &copy; 2022 Arturo de Jesús Castillo Zapata</p><br/>
             </div>
         );
     }
