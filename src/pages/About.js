@@ -2,14 +2,12 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Container, Row } from 'reactstrap';
 import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
-// import logo from '../assets/images/imagen2.png';
 
 class About extends Component {
     render() {
         return (
             <div className='bg-gradient-to-b from-sky-600 from-cyan-600 body'>
                 <Container className='pl-20 pr-20 tracking-wide md:p-10 pt-10'>
-                    {/* <img src={logo} className='md:w-56 w-40 md:h-60 h-40 rounded-full m-auto'/><br/> */}
                     <div className='inline grid-cols-2 md:grid md:divide-x-2 md:divide-slate-300 divide-x-0'>
                         <div className='md:pr-8 pr-0 md:text-left text-center'>
                             <Row>
