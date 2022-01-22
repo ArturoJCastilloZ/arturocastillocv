@@ -7,7 +7,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 class Training extends Component {
     render() {
         return (
-            <div className='pt-10 body'>
+            <div className='bg-gray-300 pt-10 body'>
                 <Container>
                     <p className='text-center text-uppercase fs-1 text-black font-bold'>
                         Formación académica

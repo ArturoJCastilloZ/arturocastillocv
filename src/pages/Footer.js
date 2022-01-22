@@ -7,13 +7,13 @@ import MapIcon from '@mui/icons-material/Map';
 class Footer extends Component {
     render() {
         return (
-            <div className='bg-gray-700 text-center pt-10'>
-                <Container className='text-white inline-block'>
+            <div className='bg-gradient-to-b from-gray-300 from-gray-700 text-center pt-10'>
+                <Container className='text-black inline-block'>
                     <div>
-                        <a href='https://www.linkedin.com/in/castillo93/' target="_blank" className='text-slate-50 hover:text-slate-400 pr-4'>
+                        <a href='https://www.linkedin.com/in/castillo93/' target="_blank" rel="noreferrer" className='text-slate-900 hover:text-slate-500 pr-4'>
                             <LinkedInIcon />
                         </a>
-                        <a href='https://github.com/ArturoJCastilloZ' target="_blank" className='text-slate-50 hover:text-slate-400'>
+                        <a href='https://github.com/ArturoJCastilloZ' target="_blank" rel="noreferrer" className='text-slate-900 hover:text-slate-500'>
                             <GitHubIcon />
                         </a>
                     </div><br />
@@ -21,7 +21,7 @@ class Footer extends Component {
                         <p><MapIcon /> Santa Catarina, Nuevo León</p>
                     </div>
                 </Container>                
-                <p className='text-white text-center'>Copyright &copy; 2022 Arturo de Jesús Castillo Zapata</p><br/>
+                <p className='text-black text-center'>Copyright &copy; 2022 Arturo de Jesús Castillo Zapata</p><br/>
             </div>
         );
     }

@@ -8,7 +8,7 @@ import EventIcon from '@mui/icons-material/Event';
 class Experience extends Component {
     render() {
         return (
-            <div className='bg-gradient-to-t from-teal-600 from-emerald-500 pt-20 pb-20 body'>
+            <div className='bg-gray-300 pt-20 pb-20 body'>
             <Container>
                 <p className='text-center text-uppercase fs-1 text-black font-bold'>Experiencia</p>
                 <div className='grid grid-cols-1 gap-4'>

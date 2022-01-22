@@ -31,14 +31,14 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className='bg-cyan-600 m-auto' light expand="md">
-          <img src={logo} className='w-11 h-12 rounded-full md:mr-5 mr-0 md:ml-5 ml-5'/>
-          <NavbarBrand className='body font-bold text-uppercase'>
+        <Navbar className='bg-gray-300' light expand="md">
+          <img src={logo} alt='logoArturo' className='w-11 h-12 rounded-full md:mr-5 mr-3 md:ml-5 ml-1'/>
+          <NavbarBrand className='body fs-4 fw-bold text-uppercase'>
             Arturo Castillo
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="" navbar>
+            <Nav navbar>
               <NavItem>
                 <NavLink href="https://github.com/ArturoJCastilloZ" target="_blank">GitHub <GitHubIcon /></NavLink>
               </NavItem>

@@ -6,14 +6,14 @@ import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
 class About extends Component {
     render() {
         return (
-            <div className='bg-gradient-to-b from-sky-600 from-cyan-600 body'>
+            <div className='bg-gray-300 body'>
                 <Container className='pl-20 pr-20 tracking-wide md:p-10 pt-10'>
-                    <div className='inline grid-cols-2 md:grid md:divide-x-2 md:divide-slate-300 divide-x-0'>
+                    <div className='inline grid-cols-2 md:grid md:divide-x-2 md:divide-slate-400 divide-x-0'>
                         <div className='md:pr-8 pr-0 md:text-left text-center'>
                             <Row>
                                 <p className='text-center text-uppercase fs-1 text-black font-bold'>Sobre mi</p>
                                 <Col className='text-black font-semibold'>
-                                    <p className='text-xl'>Mi nombre es <strong className='text-white'>Arturo de Jesús Castillo Zapata</strong>, soy estudiante en la Universidad Tecnológica de Santa Catarina en la carrera de Ingeniería en Desarrollo y gestión de software;
+                                    <p className='text-xl'>Mi nombre es <strong className='text-orange-700'>Arturo de Jesús Castillo Zapata</strong>, soy estudiante en la Universidad Tecnológica de Santa Catarina en la carrera de Ingeniería en Desarrollo y gestión de software;
                                     Actualmente estoy cursando el último cuatrimestre de la carrera.</p>
                                     <p className='text-xl'>Mi experiencia se resume solamente a proyectos escolares en los que se ha utilizado HTML, PHP, CSS, Bootstrap y algo de Javascript.
                                     También tuve un empleo en <strong className='italic text-red-700'>Triple i Soluciones</strong>, donde estuve como practicante de desarrollo web; en esta empresa tuve la oportunidad de adentrarme un poco
