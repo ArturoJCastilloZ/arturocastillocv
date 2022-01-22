@@ -13,10 +13,10 @@ class Experience extends Component {
                 <p className='text-center text-uppercase fs-1 text-black font-bold'>Experiencia</p>
                 <div className='grid grid-cols-1 gap-4'>
                     <div>                            
-                        <Card className=''>
+                        <Card>
                             <CardHeader className='bg-gradient-to-t from-slate-400 from-slate-400 text-uppercase font-bold fs-3'>Practicante de desarrollo web <WorkOutlineIcon/></CardHeader>
-                            <CardBody className=''>
-                                <CardSubtitle><a className='font-bold text-xl no-underline' href='http://www.tripleisoluciones.com/'><WorkIcon /> Triple i Soluciones</a></CardSubtitle><br/>
+                            <CardBody>
+                                <CardSubtitle><a className='font-bold text-xl no-underline hover:underline' href='http://www.tripleisoluciones.com/'><WorkIcon /> Triple i Soluciones</a></CardSubtitle><br/>
                                 <CardText className='font-semibold'><EventIcon/> Inicio: Agosto del 2021</CardText>
                                 <CardText className='font-semibold'><EventIcon/> Fin: Diciembre del 2021</CardText><br/>
                                 <CardTitle className='text-uppercase font-bold fs-4 text-center'>Actividades</CardTitle><br/>

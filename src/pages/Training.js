@@ -7,7 +7,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 class Training extends Component {
     render() {
         return (
-            <div className='pt-20 pb-20 body'>
+            <div className='pt-10 body'>
                 <Container>
                     <p className='text-center text-uppercase fs-1 text-black font-bold'>
                         Formación académica
@@ -16,7 +16,7 @@ class Training extends Component {
                         <div>                            
                             <Card className='bg-gradient-to-r from-amber-500 to-orange-500'>
                                 <CardHeader className='text-uppercase font-bold fs-4 text-center'><SchoolIcon/> Tecnico Superior Universitario</CardHeader>
-                                <CardBody className=''>
+                                <CardBody>
                                     <CardSubtitle className='font-semibold'><ArrowForwardIosIcon /> Tecnologías de la información y comunicación</CardSubtitle><br/>
                                     <CardText className='font-semibold'><ArrowForwardIosIcon /> Universidad Tecnológica de Santa Catarina</CardText>
                                     <CardText className='font-semibold'><EventIcon /> Inicio: Septiembre del 2017</CardText>
@@ -27,7 +27,7 @@ class Training extends Component {
                         <div className='pt-10 md:pt-0'>                            
                             <Card className='bg-gradient-to-r from-lime-500 to-emerald-500'>
                                 <CardHeader className='text-uppercase font-bold fs-4 text-center'><SchoolIcon/> Ingeniería</CardHeader>
-                                <CardBody className=''>
+                                <CardBody>
                                     <CardSubtitle className='font-semibold'><ArrowForwardIosIcon /> Desarrollo y gestión de software</CardSubtitle><br/>
                                     <CardText className='font-semibold'><ArrowForwardIosIcon /> Universidad Tecnológica de Santa Catarina</CardText>
                                     <CardText className='font-semibold'><EventIcon /> Inicio: Septiembre del 2020</CardText>
