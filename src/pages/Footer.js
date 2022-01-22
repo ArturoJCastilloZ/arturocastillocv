@@ -7,7 +7,7 @@ import MapIcon from '@mui/icons-material/Map';
 class Footer extends Component {
     render() {
         return (
-            <div className='bg-gradient-to-t from-gray-300 from-gray-700 text-center pt-10'>
+            <div className='bg-gradient-to-t from-gray-400 from-gray-700 text-center pt-10'>
                 <Container className='text-black inline-block'>
                     <div>
                         <a href='https://www.linkedin.com/in/castillo93/' target="_blank" rel="noreferrer" className='text-slate-900 hover:text-slate-500 pr-4'>
