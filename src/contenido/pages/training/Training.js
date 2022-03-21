@@ -7,15 +7,15 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 class Training extends Component {
     render() {
         return (
-            <div className='bg-gray-300 pt-10 body'>
+            <div className='bg-dark pt-10'>
                 <Container>
-                    <p className='text-center text-uppercase fs-1 text-black font-bold'>
+                    <p className='text-center text-uppercase fs-1 text-white'>
                         Formación académica
                     </p>
                     <div className='inline grid-cols-2 gap-4 md:grid'>
                         <div>                            
                             <Card className='bg-gradient-to-r from-amber-500 to-orange-500'>
-                                <CardHeader className='text-uppercase font-bold fs-4 text-center'><SchoolIcon/> Tecnico Superior Universitario</CardHeader>
+                                <CardHeader className='text-uppercase fs-4 text-center'><SchoolIcon/> Tecnico Superior Universitario</CardHeader>
                                 <CardBody>
                                     <CardSubtitle className='font-semibold'><ArrowForwardIosIcon /> Tecnologías de la información y comunicación</CardSubtitle><br/>
                                     <CardText className='font-semibold'><ArrowForwardIosIcon /> Universidad Tecnológica de Santa Catarina</CardText>
@@ -26,7 +26,7 @@ class Training extends Component {
                         </div>
                         <div className='pt-10 md:pt-0'>                            
                             <Card className='bg-gradient-to-r from-lime-500 to-emerald-500'>
-                                <CardHeader className='text-uppercase font-bold fs-4 text-center'><SchoolIcon/> Ingeniería</CardHeader>
+                                <CardHeader className='text-uppercase fs-4 text-center'><SchoolIcon/> Ingeniería</CardHeader>
                                 <CardBody>
                                     <CardSubtitle className='font-semibold'><ArrowForwardIosIcon /> Desarrollo y gestión de software</CardSubtitle><br/>
                                     <CardText className='font-semibold'><ArrowForwardIosIcon /> Universidad Tecnológica de Santa Catarina</CardText>

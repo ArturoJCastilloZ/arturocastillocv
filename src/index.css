@@ -1,11 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700;800;900&display=swap');
 .body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
 
+.description {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.sk-cube-grid {
+  height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.cssload-loader {
+	/* width: 244px; */
+	height: 100vh;
+	/* line-height: 244px; */
+	/* margin: 81px auto; */
+	/* position: relative; */
+	/* box-sizing: border-box; */
+	/* text-align: center; */
+	/* z-index: 0; */
+	text-transform: uppercase;
+		-o-text-transform: uppercase;
+		-ms-text-transform: uppercase;
+		-webkit-text-transform: uppercase;
+		-moz-text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+}
+
+.cssload-loader:before,
+.cssload-loader:after {
+	opacity: 0;
+	box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	content: "\0020";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 163px;
+	border: 8px solid rgb(51,125,128);
+	box-shadow: 0 0 81px rgba(51,125,128,0.97), inset 0 0 81px rgba(51,125,128,0.57);
+		-o-box-shadow: 0 0 81px rgba(51,125,128,0.97), inset 0 0 81px rgba(51,125,128,0.57);
+		-ms-box-shadow: 0 0 81px rgba(51,125,128,0.97), inset 0 0 81px rgba(51,125,128,0.57);
+		-webkit-box-shadow: 0 0 81px rgba(51,125,128,0.97), inset 0 0 81px rgba(51,125,128,0.57);
+		-moz-box-shadow: 0 0 81px rgba(51,125,128,0.97), inset 0 0 81px rgba(51,125,128,0.57);
+}
+
+.cssload-loader:after {
+	z-index: 1;
+	animation: cssload-gogoloader 1.7s infinite 0.85s;
+		-o-animation: cssload-gogoloader 1.7s infinite 0.85s;
+		-ms-animation: cssload-gogoloader 1.7s infinite 0.85s;
+		-webkit-animation: cssload-gogoloader 1.7s infinite 0.85s;
+		-moz-animation: cssload-gogoloader 1.7s infinite 0.85s;
+}
+
+.cssload-loader:before {
+	z-index: 2;
+	animation: cssload-gogoloader 1.7s infinite;
+		-o-animation: cssload-gogoloader 1.7s infinite;
+		-ms-animation: cssload-gogoloader 1.7s infinite;
+		-webkit-animation: cssload-gogoloader 1.7s infinite;
+		-moz-animation: cssload-gogoloader 1.7s infinite;
+}
 
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+@keyframes cssload-gogoloader {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+
+@-o-keyframes cssload-gogoloader {
+	0% {
+		-o-transform: scale(0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		-o-transform: scale(1);
+		opacity: 0;
+	}
+}
+
+@-ms-keyframes cssload-gogoloader {
+	0% {
+		-ms-transform: scale(0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		-ms-transform: scale(1);
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes cssload-gogoloader {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes cssload-gogoloader {
+	0% {
+		-moz-transform: scale(0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		-moz-transform: scale(1);
+		opacity: 0;
+	}
+}
