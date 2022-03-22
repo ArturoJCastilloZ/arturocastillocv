@@ -35,7 +35,7 @@ export default class Header extends React.Component {
           <NavbarBrand className='fs-4 text-uppercase text-white'>
             Arturo Castillo
           </NavbarBrand>
-          <img src={logo} alt='logoArturo' className='w-11 h-12 rounded-full md:mr-5 mr-1 md:ml-5 ml-2'/>
+          <img src={logo} alt='logoArturo' className='w-11 h-12 rounded-full md:mr-5 mr-2 md:ml-5 ml-1'/>
           <NavbarToggler className='bg-white' onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
