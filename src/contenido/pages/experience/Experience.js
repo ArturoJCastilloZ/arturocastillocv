@@ -48,7 +48,7 @@ class Experience extends Component {
                             <CardBody>
                                 <CardSubtitle><a className='font-bold text-xl no-underline hover:underline' href='https://www.tecsa.mx/inicio.html'><WorkIcon /> TECSA Contact Center</a></CardSubtitle><br/>
                                 <CardText className='font-semibold'><EventIcon/> Inicio: Enero del 2022</CardText>
-                                <CardText className='font-semibold'><EventIcon/> Actualidad </CardText><br/>
+                                <CardText className='font-semibold'><EventIcon/> Fin: Abril del 2022 </CardText><br/>
                                 <CardTitle className='text-uppercase font-bold fs-4 text-center bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-full'>Actividades</CardTitle><br/>
                                     <CardText className='text-left md:text-center font-semibold'>
                                             Desarrollar páginas web solicitadas mediante tickets por el equipo de Mejora Contínua para los departamentos como 
