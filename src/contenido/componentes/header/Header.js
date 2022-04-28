@@ -11,6 +11,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import logo from '../../../assets/images/imagen2.png';
 
 
@@ -40,10 +41,13 @@ export default class Header extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="https://github.com/ArturoJCastilloZ" target="_blank" className='text-white'>GitHub <GitHubIcon /></NavLink>
+                <NavLink href="https://github.com/ArturoJCastilloZ" target="_blank" className='text-white'><GitHubIcon /> GitHub</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.linkedin.com/in/castillo93/" target="_blank" className='text-white'>LinkedIn <LinkedInIcon /></NavLink>
+                <NavLink href="https://www.linkedin.com/in/castillo93/" target="_blank" className='text-white'><LinkedInIcon /> LinkedIn</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://api.whatsapp.com/send?phone=5218116069640" target="_blank" className='text-white'><WhatsAppIcon /> WhatsApp</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

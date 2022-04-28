@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import MapIcon from '@mui/icons-material/Map';
 
 class Footer extends Component {
@@ -20,12 +21,17 @@ class Footer extends Component {
                                 <GitHubIcon />
                             </a>
                         </div>
+                        <div className='px-2'>            
+                            <a href='https://api.whatsapp.com/send?phone=5218116069640' target="_blank" rel="noreferrer" className='text-white'>
+                                <WhatsAppIcon />
+                            </a>
+                        </div>
                     </div><br />
                     <div>
                         <p><MapIcon /> Santa Catarina, Nuevo León</p>
                     </div>
                 <p className='text-center'>Copyright &copy; 2022 Arturo de Jesús Castillo Zapata</p>
-                <p className='text-center text-sm italic text-gray-400'>Página creada con Reactjs, Tailwindcss y un poco de CSS</p><br/>
+                <p className='text-center text-sm italic text-gray-400'>Página creada con Reactjs, Tailwindcss, Bootstrap y un poco de CSS</p><br/>
                 </Container>                
             </div>
         );
